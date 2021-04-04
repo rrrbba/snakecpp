@@ -23,7 +23,12 @@ void Logic(){
 
 int main(){
 
-    cout << "hello" << endl;
+    Setup();
+    while(!gameOver){
+        Draw();
+        Input();
+        Logic();    
+    }
 
 
     return 0;
